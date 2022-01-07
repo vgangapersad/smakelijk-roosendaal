@@ -1,7 +1,6 @@
 import * as React from "react";
-import { Link, useStaticQuery, graphql } from "gatsby";
-import { IoMenu, IoClose } from "react-icons/io5";
-import { getImage, StaticImage, GatsbyImage } from "gatsby-plugin-image";
+import { Link } from "gatsby";
+import { getImage, GatsbyImage } from "gatsby-plugin-image";
 import "./featuredRestaurant.css";
 
 const FeaturedRestaurant = ({res}) => {

@@ -1,7 +1,6 @@
 import * as React from "react";
 import { Link, useStaticQuery, graphql } from "gatsby";
 import { IoMenu, IoClose } from "react-icons/io5";
-import { StaticImage } from "gatsby-plugin-image";
 import "./header.css";
 
 const Header = () => {

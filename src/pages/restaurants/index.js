@@ -18,8 +18,8 @@ const RestaurantsPage = ({data: {wpPage: {ACFRestaurantsPageFields: resPage}, al
         <h1>{resPage.headerRestaurants.title}</h1>
         <p>{resPage.headerRestaurants.description}</p>
         <div className="res-socials-container">
-          <button><Link to={resPage.socialMediaLinks.instagramLink} target="_blank">Instagram</Link></button>
-          <button><Link to={resPage.socialMediaLinks.facebookLink} target="_blank">Facebook</Link></button>
+          <button><Link to={resPage.socialMediaLinks.instagramLink} target="_blank" rel="noreferrer">Instagram</Link></button>
+          <button><Link to={resPage.socialMediaLinks.facebookLink} target="_blank" rel="noreferrer">Facebook</Link></button>
         </div>
       </div>
       </div>

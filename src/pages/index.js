@@ -13,7 +13,7 @@ const IndexPage = ({data: {wpPage: {ACFHomePageFields: fields}}}) => {
         <div className="home-welcome-text">
           <h1>{fields.headerHome.title}</h1>
           <p>{fields.headerHome.description}</p>
-          <button><a href={fields.callToAction.link} target="_blank">{fields.callToAction.linkText}</a></button>
+          <button><a href={fields.callToAction.link} target="_blank" rel="noreferrer">{fields.callToAction.linkText}</a></button>
         </div>
         <div>
           <div className="home-header-img-container">

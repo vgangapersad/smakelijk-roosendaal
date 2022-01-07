@@ -1,0 +1,15 @@
+.footer{
+    margin-top: 80px;
+    padding: 20px 0;
+    text-align: center;
+    border: solid 3px black;
+    border-width: 3px 0 0 0;
+    background-color: #BCCBEA;
+}
+.footer p{
+    color: black;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
