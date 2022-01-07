@@ -1,0 +1,18 @@
+.featured-restaurants-item{
+    border: solid 3px black;
+    padding: 10px 10px 0px 10px;
+    border-radius: 15px;
+}
+.featured-restaurants-item img{
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+.featured-restaurants-item h3{
+    margin: 20px 0;
+}
+.featured-restaurants-item a{
+    text-decoration: none;
+    color: black;
+}

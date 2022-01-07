@@ -1,0 +1,28 @@
+.restaurant-block{
+    border: solid 3px black;
+    padding: 10px 10px 0px 10px;
+    border-radius: 15px;
+}
+.restaurant-block img{
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.restaurant-block h3{
+    margin: 20px 0;
+    text-align: center;
+}
+.restaurant-block a{
+    text-decoration: none;
+    color: black;
+}
+
+@media (min-width: 1000px) {
+    .restaurant-block img{
+        border-radius: 10px;
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+}

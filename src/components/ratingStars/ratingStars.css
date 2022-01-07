@@ -1,0 +1,7 @@
+.ratingstars-rating p{
+    font-size: 2em;
+    margin: 0;
+}
+.star-icon{
+    margin: 0 5px;
+}
